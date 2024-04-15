@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&family=Roboto&display=swap');
+
+* {
+  font-family: 'PT Sans';
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background: #7b7b7b;
+}
+
+#chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 12px 24px;
+  width: 50vh;
+  height: 50vh;
+}
+
+#chat input, button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+}
+
+.messages {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+button {
+  color: #1e1e1e;
+  font-weight: bold;
+  background-color: #17FC75;
+}
+
